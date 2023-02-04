@@ -24,3 +24,28 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Solution */
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 52px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  gap: 52px;
+}
+
+.card {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* max-width: 200px; */
+}
