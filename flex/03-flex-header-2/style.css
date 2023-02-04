@@ -52,9 +52,20 @@ ul {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
 
 .links {
   display: flex;
-  gap: 5px;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.left,
+.right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
