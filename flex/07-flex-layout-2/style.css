@@ -31,11 +31,16 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  flex: auto;
 }
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 a {
@@ -45,11 +50,10 @@ a {
 
 .header {
   display: flex;
-  justify-content: start;
   align-items: center;
   font-weight: 900;
   font-size: 32px;
-  padding-left: 16px;
+  padding: 0 16px;
 }
 
 .content {
@@ -58,9 +62,7 @@ a {
 }
 
 .sidebar {
-  display: flex;
   flex-shrink: 0;
-  flex-direction: column;
   padding: 16px;
   font-size: 24px;
 }
@@ -69,13 +71,12 @@ a {
   display: flex;
   padding: 32px;
   flex-wrap: wrap;
-  gap: 8px;
 }
 
 .card {
-  padding: 8px;
-  height: 250px;
-  width: 250px;
+  padding: 16px;
+  width: 300px;
+  margin: 16px;
 }
 
 .footer {
